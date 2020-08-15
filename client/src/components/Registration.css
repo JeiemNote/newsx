@@ -1,0 +1,80 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    background-color: #f5f5f5;
+}
+.registrationForm {
+    margin: auto;
+    width: 340px;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 limegreen;
+}
+.loginForm {
+    margin: auto;
+    width: 340px;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 limegreen;
+}
+.titlePage {
+    text-align: center;
+    font-size: 20px;
+}
+.noBorder {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.formControl{
+    box-shadow: none !important;
+}
+.formControl:focus{
+    box-shadow: none !important;
+}
+.noBorder:focus {
+    border-bottom: 2px solid limegreen !important;
+}
+
+.loadingTittle {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textTittle{
+    margin: auto;
+}
+
+.lds-circle {
+    display: flex;
+}
+.lds-circle > div {
+    margin: auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: limegreen;
+    animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+@keyframes lds-circle {
+    0%, 100% {
+        animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+    }
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(1800deg);
+        animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+    }
+    100% {
+        transform: rotateY(3600deg);
+    }
+}

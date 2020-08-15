@@ -1,0 +1,9 @@
+.homeForm {
+    display: flex;
+    flex-direction: column;
+}
+.contents {
+    margin: auto;
+    width: 60%;
+    height: 100%;
+}

@@ -1,0 +1,16 @@
+.homeForm {
+    display: flex;
+    flex-direction: column;
+}
+.contents {
+    margin: auto;
+    width: 60%;
+    height: 100%;
+}
+.post {
+    margin-top: 10px;
+}
+.postBody {
+    min-height: 300px;
+    resize: none;
+}
