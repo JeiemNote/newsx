@@ -4,7 +4,6 @@ import {Button} from "react-bootstrap";
 
 export let PostElement = (props) => {
 
-
     let deleteFun = () =>{
         props.delete(props.id)
     }
@@ -30,14 +29,12 @@ export let PostElement = (props) => {
             <div className="newsInfo">
                 <div className="newsAuthor">Author: {props.author}</div>
                 <div className="newsDate">Date: {test2}</div>
-
                 {props.button ?
                     <div>
                         <Button className="newsButton" onClick={deleteFun} variant="outline-danger">Delete</Button>
                         <Button className="newsButton" onClick={editFun} variant="outline-danger">Edit</Button>
                     </div>
                     :<div/>}
-
             </div>
         </div>
     )
