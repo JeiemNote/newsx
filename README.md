@@ -15,3 +15,5 @@ FeedPage(/feed) Общаяя страница, где отображаются �
 2)React-bootstrap<br />
 3)React-hook<br />
 4)Kotlin<br />
+
+### `npm start`
